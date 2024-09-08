@@ -20,7 +20,7 @@ bool isNumber(const string& str) {
         }
     }
     return true;
-}
+} 
 
 // Function to get the street name from a line (assuming it's the first word)
 string getStreetName(const string& line) {
@@ -126,7 +126,7 @@ int main() {
             cin >> navigateChoice;
             cin.ignore();  // Clear newline after 'cin'
 
-            // Debug statement to check user input
+            // Cout to confirm user choice
             cout << "User chose: " << navigateChoice << endl;
 
             if (navigateChoice == "y" || navigateChoice == "Y") {
@@ -139,7 +139,7 @@ int main() {
         // Handle case when no data exists for the selected street
         } else {
             cout << "No data found for the selected street: " << userChoice << endl;
-        }
+        } 
     }
 
     return 0;

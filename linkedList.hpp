@@ -25,6 +25,6 @@ class linkedList {
         int getSize() const;
         int getThirdValue() const;
         void navigateList() const;
-};
+}; 
 
 #endif

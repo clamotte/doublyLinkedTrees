@@ -49,7 +49,7 @@ void linkedList::printList() const {
 
 void linkedList::navigateList() const {
     cout << "Navigate List is called\n";
-    //Check to make sure list has data
+    //Check to make sure list has data 
     if (!head) {
         cout << "The list is empty." << endl;
         return;
